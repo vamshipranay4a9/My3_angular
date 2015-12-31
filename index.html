@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Site</title>
+    <script src="app/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="server.js"></script>
+<link rel="import" href="test.html">
+</head>
+<body>   <div ng-controller="myCtrl">
+            <h1> Works!</h1>
+            2+3 = {{2+3}}
+            {{phani}}
+            {{firstName}}
+            <input type="text" ng-model="test">
+            <button type="submit" onclick="sub()">Submit</button>
+    </div>
+</body>
+</html>
