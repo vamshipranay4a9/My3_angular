@@ -1,13 +1,33 @@
+//author P.Tummala
+
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope) {
-    $scope.firstName = "Phaniukesh";
-    $scope.lastName = "Tummala";
-    var phani = 2;
-	console.log(typeof(phani))
-	$scope.test;
-	console.log($scope.test)
-	var sub;
-	function sub(){
-		console.log($scope.test)
-	}
+    $scope.application = "My3/IIS employee desk";
+    var day;
+    switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
+        break;
+}
+    	$scope.idx = day;
+    
+
 });
