@@ -7,10 +7,11 @@
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="server.js"></script>
 <link rel="import" href="test.html">
+<link rel="stylesheet/less" type="text/css" href="index.less" />
 </head>
 <body>   <div ng-controller="myCtrl">
             <h1>{{application}}</h1>
-            {{idx}}
+            <h5 class="day">{{idx}}</h5>
             <input type="text" ng-model="test">
     </div>
 </body>
