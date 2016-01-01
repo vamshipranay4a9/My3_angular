@@ -6,11 +6,12 @@
     <script src="app/bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="server.js"></script>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="import" href="test.html">
-<link rel="stylesheet/less" type="text/css" href="index.less" />
+<link rel="stylesheet/less" type="text/less" href="index.less" />
 </head>
 <body>   <div ng-controller="myCtrl">
-            <h1>{{application}}</h1>
+            <h1 class="text-center">{{application}}</h1>
             <h5 class="day">{{idx}}</h5>
             <input type="text" ng-model="test">
     </div>
