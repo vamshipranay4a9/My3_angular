@@ -36,4 +36,12 @@ if(day == "Friday"){
     	$scope.idx = day;
         $scope.d = new Date();
 
+
+        //hack for quesmark
+
+        var q = request.replace('/\?/g','QUESMARK');
+
+
+        var queload = req.body.replace('QUESMARK','q');
+
 });
