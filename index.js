@@ -37,4 +37,5 @@ if(day == "Friday"){
         $scope.d = new Date();
 
 
+
 });
