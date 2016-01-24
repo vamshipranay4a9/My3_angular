@@ -36,4 +36,6 @@ if(day == "Friday"){
     	$scope.idx = day;
         $scope.d = new Date();
 
+
+
 });
